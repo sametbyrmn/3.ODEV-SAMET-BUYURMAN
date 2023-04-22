@@ -1,0 +1,414 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    
+    margin-top: 5%;
+    margin-left: 6%;
+    margin-right: 100px;
+    
+
+}
+.bolum-1{
+    display: flex;
+    margin-left: 8%;
+    margin-right: 100px;
+}
+.baslıkk{
+    font-size: 30px;
+    display: none;
+    margin-top: 5%;
+    margin-left: 300px;
+    
+    font-size: 17px;
+}
+
+.box{
+    background-color: black;
+    display: flex;
+    
+    width: 300px;
+    height: 550px;
+    
+}
+.baslık{
+    
+    color: white;
+    margin-top: 50%;
+    margin-left: 60px;
+    text-align: center;
+    
+}
+.kisim-2{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    
+    
+}
+.hero{
+    display: flex;
+    height: 550px;
+    position: relative;
+}
+.metin-1{
+    margin-top: 9%;
+    margin-left: 300px;
+    position: absolute;
+    font-size: 17px;
+}
+.button{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 20%;
+    color: white;
+    
+}
+.button:link,button:visited{
+    background-color: #d5966c;
+    color: white;
+    padding: 9px 17px;
+    text-align: center;
+    text-decoration: none;
+    
+
+}
+.arrow-right{
+    background-color: black;
+    width: 30px;
+    height: 36px;
+    position: absolute;
+    margin-top: 20%;
+    margin-left: 450px;
+    text-align: center;
+}
+
+.bolum-2{
+    display: flex;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+.kisim-3{
+    width: 300px;
+    height: 400px;
+}
+.grid{
+    height: 400px;
+}
+
+.bolum-3{
+    display: flex;
+    margin-top: 3%;
+}
+.grid-2{
+    display: block;
+    width: 500px;
+    height: 740px;
+}
+.grid-3{
+    height: 360px;
+    margin-left: 5px;
+    width: 500px;
+}
+.baslik-2{
+    
+    background-color: black;
+    width: 500px;
+    height: 375px;
+    margin-top: 0;
+    margin-left: 5px;
+    
+}
+.come-be{
+    color: white;
+    text-align: center;
+    margin-top: 0;
+}
+
+.excited{
+    text-align: center;
+    font-size: small;
+    color: rgb(68, 68, 68);
+
+
+}
+.navbar{
+    background-color: black;
+    margin-top: 1100px;
+    margin-left: 0px;
+    margin-right: 250px;
+}
+.navbar-warapper{
+    
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.logo-wrapper{
+    margin-left: 0px;
+}
+.logo-dark{
+    background-color: black;
+    
+    margin-left: 0px;
+}
+
+.p-modern-art{
+    color: white;
+}
+.icon{
+    display: flex;
+    column-gap: 17px;
+}
+
+@media (max-width: 768px) {
+    .bolum-1{
+        display: block;
+        
+
+    }
+
+    .box{
+        background-color: white;
+        margin-bottom: 1px;
+        display: none;
+
+    }
+    .baslık{
+        color: black;
+        display: block;
+
+    }
+    .baslıkk{
+        display: flex;
+    
+        margin-top: 3%;
+        font-size: xx-large;
+        margin-left: 120px;
+        
+    }
+    .metin-1{
+        margin-top: 16%;
+        margin-left: 300px;
+        position: absolute;
+        font-size: 17px;
+    }
+    .button{
+        position: absolute;
+        margin-left: 300px;
+        margin-top: 30%;
+        color: white;
+        
+    }
+    .arrow-right{
+        background-color: black;
+        width: 30px;
+        height: 36px;
+        position: absolute;
+        margin-top: 30%;
+        margin-left: 450px;
+        text-align: center;
+    }
+    .hero{
+        display: flex;
+        height: 300px;
+        width: 250px;
+        position: relative;
+    }
+    .bolum-2{
+        display: flex;
+    }
+    
+    .grid{
+        display: flex;
+        height: 200px;
+    }
+    
+    .grid-2{
+    display: block;
+    width: 350px;
+    height: 600px;
+    }
+    .grid-3{
+    height: 300px;
+    margin-left: 5px;
+    width: 300px;
+
+    }
+    .baslik-2{
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin-top: 0;
+    margin-left: 5px;
+    }
+    .navbar{
+        background-color: black;
+        margin-top: 700px;
+        margin-left: 0px;
+        margin-right: 3px;
+        height: 180px;
+    }
+    
+
+
+ }
+ @media (max-width: 365px) {
+    .container{
+        width: 100%;
+        height: 100vh;
+        
+        margin-top: 5%;
+        margin-left: 0;
+        margin-right: 0;
+        
+    
+    }
+    .bolum-1{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+
+        
+
+    }
+
+    .box{
+        background-color: white;
+        margin-bottom: 1px;
+        display: none;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    .baslık{
+        color: black;
+        display: block;
+        font-size: x-small;
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    .kisim-2{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .baslıkk{
+        display: flex;
+        margin-left: 0;
+    
+        display: block;
+        margin-top: 1%;
+        font-size: medium;
+        
+        
+    }
+    .metin-1{
+        margin-top: 1%;
+        margin-left: 0;
+        display: block;
+        font-size: 5px;
+        
+    }
+    .button{
+        
+        margin-left: 0;
+        margin-top: 12%;
+        color: white;
+        
+    }
+    .arrow-right{
+        background-color: black;
+        width: 30px;
+        height: 36px;
+        position: absolute;
+        margin-top: 12%;
+        margin-left: 152px;
+        text-align: center;
+    }
+    .hero{
+        display: block;
+        height: 130px;
+        width: 130px;
+        position: relative;
+    }
+    .bolum-2{
+        display: block;
+        margin-left: 0;
+    }
+    .kisim-3{
+        width: 100px;
+        height: 200px;
+        display: block;
+    }
+    .baslık-1{
+        display: block;
+        font-size: medium;
+    }
+    
+    .wander{
+        font-size: xx-small;
+    }
+    .grid{
+        display: block;
+        height: 170px;
+        width: 150px;
+        margin-top: 0%;
+    }
+    .bolum-3{
+        display: block;
+    }
+    .grid-2{
+    display: block;
+    width: 150px;
+    height: 140px;
+    }
+    .grid-3{
+    height: 100px;
+    margin-left: 5px;
+    width: 100px;
+
+    }
+    .baslik-2{
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    margin-top: 0;
+    margin-left: 5px;
+    }
+    .come-be{
+        font-size: xx-small;
+    }
+    .excited{
+        font-size: xx-small;
+    }
+    .navbar{
+        background-color: black;
+        margin-top: 500px;
+        margin-left: 0px;
+        margin-right: 0;
+        height: 70px;
+    }
+    .p-modern-art{
+        color: white;
+        font-size: xx-small;
+    }
+    .icon{
+        display: flex;
+        column-gap: 10px;
+    }
+    
+
+
+ }
+
+
+
+
+
+
+
+
+
