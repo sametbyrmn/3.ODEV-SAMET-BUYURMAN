@@ -1,0 +1,480 @@
+.container{
+
+    margin-left: 190px;
+    
+
+}
+.bolum-bir-ici{
+    display: flex;
+}
+
+
+
+.bolum-bir{
+    display: flex;
+    
+}
+
+
+
+.map{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 900px;
+    position: relative;
+    
+    
+}
+.button{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: 10px;
+    color: white;
+    
+}
+.button:link,button:visited{
+    background-color: #d5966c;
+    color: white;
+    padding: 9px 17px;
+    text-align: center;
+    text-decoration: none;
+    
+
+}
+.arrow-left{
+    background-color: black;
+    width: 30px;
+    height: 37px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 89px;
+    text-align: center;
+}
+
+
+
+.bolum-iki{
+    height: 300px;
+    width: 900px;
+    display: flex;
+    margin-left: 20px;
+    background-color: #151515;
+}
+.our{
+    margin-top: 50px;
+    margin-left: 100px;
+    font-size: 23px;
+    color: white;
+    
+}
+.kıng{
+    margin-top: 50px;
+    margin-left: 200px;
+    color: #d5966c;
+
+
+}
+.newport{
+    margin-left: 200px;
+    color: white;
+}
+.our-newly{
+    margin-left: 200px;
+    color: white;
+}
+
+
+.navbar{
+    background-color: #d5966c;
+    
+    margin-left: 20px;
+    margin-right: 314px;
+}
+.navbar-warapper{
+    
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.logo-wrapper{
+    margin-left: 0px;
+}
+.logo-dark{
+    background-color: #d5966c;
+    margin-left: 0px;
+}
+
+.p-modern-art{
+    color: black;
+}
+.icon{
+    display: flex;
+    column-gap: 17px;
+}
+
+@media (max-width: 365px){
+    
+    .container{
+        margin-left: 0;
+    }
+    .map{
+        display: flex;
+        margin-top: 5px;
+        margin-left: 0;
+        width: 400px;
+        height: 300px;
+        position: relative;
+        
+        
+    }
+    .button{
+        position: absolute;
+        margin-left: 80px;
+        margin-top: 10px;
+        font-size: xx-small;
+        color: white;
+        height: 6px;
+        width: 70px;
+        
+    }
+    .arrow-left{
+        background-color: black;
+        width: 20px;
+        height: 24px;
+        position: absolute;
+        margin-top: 10px;
+        margin-left: 60px;
+        text-align: center;
+    }
+    .bolum-iki{
+        height: 270px;
+        width: 400px;
+        display: flex;
+        margin-left: 0;
+        background-color: #151515;
+    }
+    .our{
+        margin-top: 50px;
+        margin-left: 20px;
+        
+        font-size: medium;
+        color: white;
+        
+    }
+    .kıng{
+        margin-top: 30px;
+        margin-left: 100px;
+        color: #d5966c;
+        
+    
+    
+    }
+    .newport{
+        margin-left: 100px;
+        color: white;
+        font-size: x-small;
+        margin-top: 0;
+    }
+    .our-newly{
+        margin-left: 100px;
+        color: white;
+        font-size: x-small;
+    }
+    .navbar{
+        background-color: #d5966c;
+        width: 400px;
+        height: 200px;
+        margin-left: 0;
+        
+        
+        
+    }
+    .navbar-warapper{
+    
+        display: block;
+    
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    .icon{
+        margin-left: 10px;
+        display: bloc;
+        column-gap: 10px;
+        color: black;
+    }
+    .p-modern-art{
+        margin-left: 10px;
+        color: #444;
+        font-size: small;
+        
+    }
+    .logo-wrapper{
+        margin-left: 10px;
+        margin-top: 0x;
+    }
+
+    
+
+        
+        
+    
+    }
+
+
+    @media (max-width: 365px){
+    
+        .container{
+            margin-left: 0;
+        }
+        .map{
+            display: flex;
+            margin-top: 5px;
+            margin-left: 0;
+            width: 400px;
+            height: 300px;
+            position: relative;
+            
+            
+        }
+        .button{
+            position: absolute;
+            margin-left: 80px;
+            margin-top: 10px;
+            font-size: xx-small;
+            color: white;
+            height: 6px;
+            width: 70px;
+            
+        }
+        .arrow-left{
+            background-color: black;
+            width: 20px;
+            height: 24px;
+            position: absolute;
+            margin-top: 10px;
+            margin-left: 60px;
+            text-align: center;
+        }
+        .bolum-iki{
+            height: 270px;
+            width: 400px;
+            display: flex;
+            margin-left: 0;
+            background-color: #151515;
+        }
+        .our{
+            margin-top: 50px;
+            margin-left: 20px;
+            
+            font-size: medium;
+            color: white;
+            
+        }
+        .kıng{
+            margin-top: 30px;
+            margin-left: 100px;
+            color: #d5966c;
+            
+        
+        
+        }
+        .newport{
+            margin-left: 100px;
+            color: white;
+            font-size: x-small;
+            margin-top: 0;
+        }
+        .our-newly{
+            margin-left: 100px;
+            color: white;
+            font-size: x-small;
+        }
+        .navbar{
+            background-color: #d5966c;
+            width: 700px;
+            height: 200px;
+            margin-left: 0;
+            
+            
+            
+        }
+        .navbar-warapper{
+        
+            display: block;
+            width: 700px;
+        
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+        .icon{
+            margin-left: 10px;
+            display: bloc;
+            column-gap: 10px;
+            color: black;
+        }
+        .p-modern-art{
+            margin-left: 10px;
+            color: #444;
+            font-size: small;
+            
+        }
+        .logo-wrapper{
+            margin-left: 10px;
+            margin-top: 0x;
+        }
+    
+            
+        
+        }@media (max-width: 768px){
+    
+            .container{
+                margin-left: 0;
+            }
+            .map{
+                display: flex;
+                margin-top: 5px;
+                margin-left: 0;
+                width: 700px;
+                height: 300px;
+                position: relative;
+                
+                
+            }
+            .button{
+                position: absolute;
+                margin-left: 80px;
+                margin-top: 10px;
+                font-size: xx-small;
+                color: white;
+                height: 6px;
+                width: 70px;
+                
+            }
+            .arrow-left{
+                background-color: black;
+                width: 20px;
+                height: 24px;
+                position: absolute;
+                margin-top: 10px;
+                margin-left: 60px;
+                text-align: center;
+            }
+            .bolum-iki{
+                height: 270px;
+                width: 700px;
+                display: flex;
+                margin-left: 0;
+                background-color: #151515;
+            }
+            .our{
+                margin-top: 50px;
+                margin-left: 20px;
+                
+                font-size: x-large;
+                color: white;
+                
+            }
+            .kıng{
+                margin-top: 30px;
+                margin-left: 250px;
+                color: #d5966c;
+                font-size: x-large;
+                
+            
+            
+            }
+            .newport{
+                margin-left: 250px;
+                color: white;
+                font-size: medium;
+                margin-top: 0;
+            }
+            .our-newly{
+                margin-left: 250px;
+                color: white;
+                font-size: medium;
+            }
+            .navbar{
+                background-color: #d5966c;
+                width: 700px;
+                height: 200px;
+                margin-left: 0;
+                
+                
+                
+            }
+            .navbar-warapper{
+            
+                display: flex;
+            
+                justify-content: space-around;
+                align-items: center;
+                
+            }
+            .icon{
+                margin-left: 10px;
+                display: bloc;
+                column-gap: 10px;
+                color: black;
+            }
+            .p-modern-art{
+                margin-left: 10px;
+                color: #444;
+                font-size: small;
+                
+            }
+            .logo-wrapper{
+                margin-left: 10px;
+                margin-top: 0x;
+            }
+        
+            
+            
+            }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
